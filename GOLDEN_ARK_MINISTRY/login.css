@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(103, 14, 218);
+}
+.wrapper{
+    /* border: 1px solid; */
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+form{
+    border: 1px solid white;
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(217, 226, 246);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 1px white ;
+    padding: 30px;
+}
+form span{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid  rgb(103, 14, 218);
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    margin-bottom: 10px;
+
+}
+.input{
+padding: 10px;
+margin: 0px auto;
+width: 100%;
+
+}
+.input label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(112, 112, 111);
+
+}
+.input input{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:  rgb(198, 218, 245);
+    border:  rgb(198, 218, 245);
+    font-size: 18px;
+    color:  rgb(54, 56, 56);
+}
+.input input:hover{
+    transition:all 0.3s ease-out;
+    background-color: rgb(181, 196, 228);
+}
+.input button{
+    height: 50px;
+    width: 95%;
+    background-color: rgb(103, 14, 218);
+    border-radius: 10px;
+    margin-top: 20px;
+    border:  rgb(103, 14, 218);
+}
+.other span{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-bottom: none;
+    margin: 10px auto;
+    width: 100%;
+
+}
+.other p{
+    border: 1px solid  rgb(103, 14, 218);
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 94%;
+    background-color: rgb(103, 14, 218) ;
+    text-align: center;
+    padding-top:25px ;
+
+}
+.other a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo{
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.logo p{
+    height: 80px;
+    border-bottom: 1px solid;
+    margin-top: 0px;
+    text-align: center;
+    width: fit-content;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.quotewrapper{
+    border: 1px solid white;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(217, 226, 246);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 1px white ;
+    padding: 30px;
+}
+.quotewrapper span{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 400px;
+    border-bottom: 1px solid  rgb(103, 14, 218);
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    margin-bottom: 10px;
+    right: 10px;
+
+}
+.quotewrapper p{
+    font-size: 30px;
+    font-family: fantasy;
+}
+.quotewrapper h5{
+    font-size: 25px;
+}

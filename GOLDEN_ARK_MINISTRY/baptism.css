@@ -1,0 +1,66 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color:  rgb(132, 139, 243);
+}
+
+form {
+width: 70%;
+max-width: 90%;
+margin:20px auto;
+padding: 15px;
+background-color: #dee0e7;
+border-radius: 20px;
+}
+
+form span{
+    width: 80%;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px  rgb(132, 139, 243) solid;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+color: #333;
+}
+
+input[type="text"], input[type="date"] ,input[type="int"]{
+width: 85%;
+padding: 15px;
+margin-bottom: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: #fff;
+padding: 15px 30px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+background-color: #3e8e41;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-group label {
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.form-group input[type="text"], .form-group input[type="date"] {
+padding: 15px;
+border: 1px solid #ccc;
+}

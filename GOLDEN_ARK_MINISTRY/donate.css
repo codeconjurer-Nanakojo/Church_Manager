@@ -1,0 +1,96 @@
+
+body{
+    background-image: url(./joinhand.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 1246px;
+    height: 800px;
+}
+
+header {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    line-height: normal;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    transition: all 0.4s ease;
+    padding: 0px 10px;
+    text-decoration: none;
+
+}
+
+nav li a:hover {
+
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border-radius: 20px;
+}
+
+#mem li {
+    margin-right:10px ;
+}
+button {
+    background-color: rgba(11, 229, 229, 0.8);
+    border: none;
+    border-radius: 20px;
+}
+
+.logo {
+    margin-right: 1000px;
+    cursor: pointer;
+}
+
+fieldset, legend {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    margin-left: 180px; 
+    width: 70%;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+ form input {
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 5px;
+ }
+form label {
+    font-style: italic;
+}
+.formgroup{
+    display: block;
+    width: 873px;
+    height: 328px;
+}
+
+.footercontainer li {
+    display: inline-block;
+}
+.socialicons {
+    display: inline-block;
+    justify-content: center;
+}

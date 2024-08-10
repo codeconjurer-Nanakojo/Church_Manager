@@ -1,0 +1,104 @@
+
+
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <link rel="stylesheet" href="adminregister.css">  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>HOME</title>  
+</head>  
+<body>  
+    <div class="nav">  
+        <div class="churchlogo">  
+            <img src="images/church_icon.jpeg" alt="church icon">  
+            <p id="app">CHURCH MANAGEMENT SYSTEM</p>  
+        </div>  
+        <ul class="navitem">  
+            <li><a id="active">HOME</a></li>  
+            <li><a>ABOUT</a></li>  
+        </ul>  
+        <div class="navigate">  
+            <select name="menu" id="menu">  
+                <option value="Home">Home</option>  
+                <option value="Members">Members</option>  
+                <option value="Event">Event</option>  
+                <option value="Groups">Groups</option>  
+                <option value="Announcement">Announcement</option>  
+                <option value="Logout">Logout</option>  
+            </select>  
+        </div>  
+    </div>  
+    <div class="sidebar">  
+        <ul class="menu">  
+            <li >  
+                <a href="home.php">  
+                    <img src="icons/dashboard.png" alt="">  
+                    <span>TODAY</span>   
+                </a>  
+            </li>  
+            <li class="active">  
+                <a href="register.html">  
+                    <img src="icons/register.png" alt="#">  
+                    <span>REGISTER</span>   
+                </a>  
+            </li>  
+            <li>  
+                <a href="members.php">  
+                    <img src="icons/member.jpg" alt="#">  
+                    <span>MEMBERS</span>   
+                </a>  
+            </li>  
+            <li>  
+                <a href="eventlist.php">  
+                    <img src="icons/event3.png" alt="#">  
+                    <span>EVENTS</span>   
+                </a>  
+            </li>  
+            <li>  
+                <a href="grouplist.php">  
+                    <img src="icons/group.webp" alt="#">  
+                    <span>GROUPS</span>   
+                </a>  
+            </li>  
+        </ul>  
+        <div class="logout">  
+            <form action="home.php" method="post">  
+                <button name="logout">  
+                    <span>LOGOUT</span>  
+                </button>  
+            </form>  
+        </div>  
+    </div>  
+    <div class="container">
+        <a href="registration.html">
+            <div class="memberregister">
+                <img src="icons/register.png">
+                <span>REGISTER NEW MEMBER</span>
+            </div>
+        </a>
+
+        <a href="eventreg.html">
+            <div class="eventregister">
+                <img src="icons/register.png">
+                <span>REGISTER NEW EVENT</span>
+            </div>
+        </a>
+        <a href="groupreg.html">
+            <div class="groupregister">
+                <img src="icons/register.png">
+                <span>REGISTER NEW GROUP</span>
+            </div>
+        </a>
+        <a href="sponsorform.html">
+            <div class="otherregister">
+                <img src="icons/register.png">
+                <span>REGISTER SPONSOR(s)</span>
+            </div>
+        </a>
+
+    </div>
+
+
+</body>  
+</html>

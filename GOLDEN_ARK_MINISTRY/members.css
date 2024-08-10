@@ -1,0 +1,278 @@
+*{
+    /* border: 1px solid; */
+    margin: 0px;
+}
+body{
+    background-color: rgb(132, 139, 243);
+    margin: 0px;
+}
+.nav{
+    height: 50px;
+    border: 1px  rgb(103, 14, 218);
+    background-color: rgb(103, 14, 218) ;
+    top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+}
+.churchlogo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    gap: 7px;
+}
+.churchlogo img{
+    width: 50px;
+    height: 50px;
+}
+#app{
+    color: aliceblue;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navitem{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.navitem li{
+box-sizing: border-box;
+width: fit-content;
+height: 40px;
+border-radius: 2px;
+   /* border: 1px solid; */
+padding: 10px;
+    
+}
+.navitem li a {
+    padding: 10px;
+    /* border: 1px solid; */
+    color: aliceblue;
+
+}
+.navitem li:hover{
+border-bottom: 3px peru solid;
+transform: 1.5;
+
+
+}
+#active{
+    color: peru; 
+}
+.navitem li a:hover{
+    color: peru;
+}
+.navigate select{
+    padding: 10px;
+    margin-right: 2px;
+    margin-top: 3px;
+    font-size: 20px;
+    background-color: blueviolet;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(151, 159, 201);
+    display: flex; 
+    flex-direction: row; 
+}
+.sidebar{
+    height: 100vh;
+    width: 60px;
+    background-color: rgb(126, 61, 212);
+    position: fixed;
+    margin-top: 50px;
+    border-radius: 3px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar:hover{
+    width: 200px;
+    transition: all 0.7s linear;
+}
+.menu{
+    height: fit-content;
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px ;
+    transition: all 0.5s ease-in-out;
+
+}
+.active,
+.menu li:hover{
+    background-color:#f6faff;
+}
+.menu a{
+    color: rgb(19, 30, 52);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    gap: 1.1rem;
+}
+.menu a span{
+    overflow: hidden;
+}
+.menu a img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.logout{
+    padding-bottom: 20px;
+    /* border: 1px solid; */
+    margin-bottom: 50px;
+}
+.logout button img{
+    padding-left:10px ;
+    height: 50px;
+    width: 50px;
+    border-radius:50% ;
+    padding-top: 10px;
+}
+.logout a{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+}
+.logout a span{
+    color: rgb(19, 30, 52);
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: large;
+   
+}
+.logout a:hover{
+    background-color: #f6faff;
+ 
+}
+
+/* main content */
+.container{
+    margin-top: 60px;
+    height: 100%;
+
+    margin-left: 60px;
+    border: 10px solid;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+background: rgb(185, 14, 171);
+}
+
+h1 {
+font-size: 24px;
+font-weight: bold;
+}
+
+.controls {
+display: flex;
+align-items: center;
+background: blue;
+}
+
+.add-attendance {
+background-color: #6c63ff;
+color: #030000;
+border: none;
+padding: 8px 16px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.all-age {
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 14px;
+}
+
+.attendance-data {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.total-members {
+font-size: 24px;
+font-weight: bold;
+}
+
+.attendance-breakdown {
+display: flex;
+}
+
+.attendance-breakdown > div {
+padding: 10px 20px;
+border-radius: 4px;
+font-size: 14px;
+font-weight: bold;
+margin-left: 10px;
+}
+
+.adult {
+background-color: #6c63ff;
+color: #fff;
+}
+
+.children {
+background-color: #000000;
+color: #fff;
+}
+
+.guest {
+background-color: #3cd070;
+color: #fff;
+}
+.attendance-list table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.attendance-list th,
+.attendance-list td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ccc;
+}
+
+.attendance-list th {
+background-color: #f5f5f5;
+}
+
+.attendance-list button {
+background-color: #6c63ff;
+color: #fff;
+border: none;
+padding: 6px 12px;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 5px;
+}
+
+.sidebar:hover + .container{
+    margin-left: 200px ;
+    transition:all 0.7s linear;
+}
